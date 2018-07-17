@@ -34,8 +34,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Extensions\WaitForExtensions.cs" />
+    <Compile Include="Extensions\TapExtensions.cs" />
     <Compile Include="Extensions\ExtensionPoperties.cs" />
+    <Compile Include="Extensions\ElementExistsExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
