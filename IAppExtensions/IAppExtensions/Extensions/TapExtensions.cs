@@ -21,9 +21,9 @@ namespace Xamarin.UITest
             app.WaitForElement(
                 element, 
                 timoutMessage, 
-                timeout ?? TimeSpan.FromSeconds(ExtensionPoperties.DEFAULT_TIMEOUT_SECONDS), 
-                retryFrequency ?? TimeSpan.FromSeconds(ExtensionPoperties.DEFAULT_RETRYFREQUENCY_SECONDS), 
-                postTimout ?? TimeSpan.FromSeconds(ExtensionPoperties.DEFAULT_POST_TIMEOUT_SECONDS)
+                timeout ?? TimeSpan.FromSeconds(ExtensionProperties.DEFAULT_TIMEOUT_SECONDS), 
+                retryFrequency ?? TimeSpan.FromSeconds(ExtensionProperties.DEFAULT_RETRYFREQUENCY_SECONDS), 
+                postTimout ?? TimeSpan.FromSeconds(ExtensionProperties.DEFAULT_POST_TIMEOUT_SECONDS)
             );
             app.Tap(element);
         }
@@ -42,9 +42,9 @@ namespace Xamarin.UITest
             app.WaitForElement(
                 element, 
                 timoutMessage, 
-                timeout ?? TimeSpan.FromSeconds(ExtensionPoperties.DEFAULT_TIMEOUT_SECONDS), 
-                retryFrequency ?? TimeSpan.FromSeconds(ExtensionPoperties.DEFAULT_RETRYFREQUENCY_SECONDS), 
-                postTimout ?? TimeSpan.FromSeconds(ExtensionPoperties.DEFAULT_POST_TIMEOUT_SECONDS)
+                timeout ?? TimeSpan.FromSeconds(ExtensionProperties.DEFAULT_TIMEOUT_SECONDS), 
+                retryFrequency ?? TimeSpan.FromSeconds(ExtensionProperties.DEFAULT_RETRYFREQUENCY_SECONDS), 
+                postTimout ?? TimeSpan.FromSeconds(ExtensionProperties.DEFAULT_POST_TIMEOUT_SECONDS)
             );
             app.Tap(element);
         }
